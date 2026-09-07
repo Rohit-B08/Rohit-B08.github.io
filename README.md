@@ -42,12 +42,3 @@ js/main.js                Mobile nav toggle + hero terminal animation
    `.nav-links` list in **every existing page** — this is the only place a
    new page requires touching other files.
 
-## Before you publish
-
-- Update the LinkedIn link in `contact.html` if your handle changes.
-- Certificates: flip `tag--progress` to `tag--done` in `certifications.html`
-  once the PMI Kickoff and Simplilearn certificates are actually earned, and
-  add real dates.
-- If you want to link back to your project case studies (Airline Passenger
-  Support System, etc.) from an earlier portfolio version, add a Projects
-  page using the same copy-contact.html-as-template pattern above.
