@@ -1,4 +1,4 @@
-# Rohit Bhardwaj — Portfolio Site (v3)
+# Rohit Bhardwaj — Portfolio Site
 
 A multi-page static portfolio — plain HTML/CSS/JS, no build step, no framework —
 led with a Software Developer / Application Support identity.
