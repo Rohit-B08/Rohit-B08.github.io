@@ -12,6 +12,8 @@ experience.html          Work history timeline
 skills.html
 certifications.html
 contact.html
+projects/index.html     Projects hub — grid of clickable teaser cards
+projects/*.html          One detail page per project
 css/style.css            Shared styles for every page
 js/main.js                Mobile nav toggle + hero terminal animation
 ```
@@ -41,4 +43,20 @@ js/main.js                Mobile nav toggle + hero terminal animation
 3. Add one new `<li><a href="yourpage.html">Your Page</a></li>` line to the
    `.nav-links` list in **every existing page** — this is the only place a
    new page requires touching other files.
+
+## Adding a new project
+
+1. Copy `projects/ticket-management-api.html` as the starting template (or
+   `projects/airline-passenger-support.html` if the project needs a "Key
+   deliverables" list) and save it as `projects/your-project-name.html`.
+2. Update the `<title>`, `page-title`, status tag (`tag--done` /
+   `tag--progress`), Overview, Role & Team, Tech Stack pills, and — only if
+   a real repo/demo URL exists — the Links section (omit it entirely
+   otherwise, never link to `#`).
+3. Add one new teaser card `<a class="project-card" href="your-project-name.html">`
+   to the `.project-grid` in `projects/index.html`, following the pattern of
+   the existing cards (status tag, title, `.timeline-meta` subtitle, 1–2
+   sentence teaser, `.pill-list` tech chips).
+
+That's it — no other file needs to change to add a project.
 
